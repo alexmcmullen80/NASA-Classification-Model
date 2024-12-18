@@ -19,9 +19,9 @@ The United States National Oceanic and Atmospheric Administration (NOAA) operate
 
 The data is updated regularly and made available to the public via the GOES server. Active regions of the sun, called HARP (HMI Active Region Patch), are monitored for solar activity. These regions are identified by their coherent magnetic structures and measurable features. Scientists are particularly interested in two classes of solar flares:
 
-#### M-class flares: Moderate-intensity flares
+**M-class flares**: Moderate-intensity flares
 
-#### X-class flares: High-intensity flares
+**X-class flares**: High-intensity flares
 
 Predicting these solar flares is challenging due to their rarity and the lack of clear indicators from solar data.
 
