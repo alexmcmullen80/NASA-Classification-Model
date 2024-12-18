@@ -27,7 +27,7 @@ Predicting these solar flares is challenging due to their rarity and the lack of
 
 ## Project Description
 
-This project aims to develop a machine learning (ML)-based binary classification model to predict major solar flare events 24 hours in advance. The data is sourced from the Helioseismic and Magnetic Imager Instrument on NASA's Solar Dynamics Observatory (SDO).
+This project aims to develop a machine learning (ML)-based binary classification model to predict major solar flare events 24 hours in advance. The data is sourced from the Helioseismic and Magnetic Imager Instrument on [NASA's Solar Dynamics Observatory (SDO)](https://sdo.gsfc.nasa.gov/).
 
 ### Key Features
 
@@ -35,7 +35,7 @@ This project aims to develop a machine learning (ML)-based binary classification
 
 **Model Objective**: Predict the occurrence of M-class or X-class solar flares within the next 24 hours.
 
-**Performance**: Achieves an average accuracy of approximately 88%, comparable to results from Bobra and Couvidat's research.
+**Performance**: Achieves an average accuracy of approximately 88%, comparable to results from [Bobra and Couvidat's research](https://iopscience.iop.org/article/10.1088/0004-637X/798/2/135/pdf).
 
 ## Technical Details
 
