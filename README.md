@@ -19,11 +19,9 @@ The United States National Oceanic and Atmospheric Administration (NOAA) operate
 
 The data is updated regularly and made available to the public via the GOES server. Active regions of the sun, called HARP (HMI Active Region Patch), are monitored for solar activity. These regions are identified by their coherent magnetic structures and measurable features. Scientists are particularly interested in two classes of solar flares:
 
-#### M-class flares: 
-Moderate-intensity flares
+#### M-class flares: Moderate-intensity flares
 
-#### X-class flares: 
-High-intensity flares
+#### X-class flares: High-intensity flares
 
 Predicting these solar flares is challenging due to their rarity and the lack of clear indicators from solar data.
 
@@ -33,25 +31,19 @@ This project aims to develop a machine learning (ML)-based binary classification
 
 ### Key Features
 
-#### Data Source: 
-Solar event data captured by the SDO.
+**Data Source**: Solar event data captured by the SDO.
 
-#### Model Objective: 
-Predict the occurrence of M-class or X-class solar flares within the next 24 hours.
+**Model Objective**: Predict the occurrence of M-class or X-class solar flares within the next 24 hours.
 
-#### Performance: 
-Achieves an average accuracy of approximately 88%, comparable to results from Bobra and Couvidat's research.
+**Performance**: Achieves an average accuracy of approximately 88%, comparable to results from Bobra and Couvidat's research.
 
 ## Technical Details
 
-#### Data Preprocessing: 
-Features are extracted from solar event datasets for training the ML model.
+**Data Preprocessing**: Features are extracted from solar event datasets for training the ML model.
 
-#### Machine Learning Model: 
-The model evaluates the best combination of features to predict solar flare occurrences.
+**Machine Learning Model**: The model evaluates the best combination of features to predict solar flare occurrences.
 
-#### Evaluation Metrics: 
-Accuracy and other classification metrics are used to assess model performance.
+**Evaluation Metrics**: Accuracy and other classification metrics are used to assess model performance.
 
 ## Significance
 
