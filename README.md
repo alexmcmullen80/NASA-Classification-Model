@@ -1,25 +1,58 @@
 # NASA-Classification-Model
-<pre>
-  The sun's solar flares are large bursts of electromagnetic energy that can significantly impact life on Earth. 
-  Powerful solar flares can knock out power grids, satellite systems, and all communication systems on the planet. 
-  To monitor solar activity and study such events, the United States National Oceanic and Atmospheric Administration (NOAA) 
-  operates the Geostationary Operational Environmental Satellite System (GOES); a series of geosynchronous satellites with 
-  specialized measurement instruments onboard. The GOES system provides us with solar imagery, magnetometer data, solar X-ray data, 
-  and data on high-energy solar protons that hit Earth. This data is sent to Earth and regularly updated on the GEOS server which is 
-  open for public use.
-  Unlike Earth, the sun’s regions are not divided by countries, states, or cities. Instead, various patches on the sun are numbered 
-  by NOAA for scientific investigation purposes, and the most active patches are frequently monitored for high-intensity bursts of 
-  electromagnetic radiation. Each patch is called a HARP (HMI Active Region Patch); an enduring, coherent magnetic structure that 
-  produces an electromagnetic field. The regions provide measurable features that characterize that patch. There are two classes 
-  of solar flare events of particular interest to scientists: the M-class and the X-class. 
-  These solar flares occur in various HARP regions, and the level of energy bursts is measured on a scale.
-  While monitoring these patches for solar flares is helpful, it is much more useful if we can predict the next powerful burst. 
-  Predicting an upcoming solar flare 24 hours in advance can give us a little time to prevent major disasters. 
-  However, this is very challenging because solar flares are rare events. Most importantly, we do not know which features directly
-  indicate an upcoming solar flare.
-  
-  This project consists of a ML-based binary classification model using data from the Helioseismic and Magnetic Imager Instrument 
-  on NASA's Solar Dynamics Observatory (SDO) that captures various solar events.
-  The model uses best combination of this data to predict the occurrence of a major solar event in the next 24 hours.
-  It achieves average accuracy of around 88% which is comparable to the results of the paper published by Bobra and Couvidat
-</pre>
+Solar Flare Prediction
+
+Overview
+
+Solar flares are large bursts of electromagnetic energy emitted by the sun, capable of significantly impacting life on Earth. These events can disrupt power grids, satellite systems, and global communication networks. Predicting solar flares in advance is essential to mitigate potential disasters and maintain critical infrastructure.
+
+Background
+
+The United States National Oceanic and Atmospheric Administration (NOAA) operates the Geostationary Operational Environmental Satellite System (GOES), a series of geosynchronous satellites equipped with instruments to monitor solar activity. These satellites provide:
+
+Solar imagery
+
+Magnetometer data
+
+Solar X-ray data
+
+High-energy solar proton data
+
+The data is updated regularly and made available to the public via the GOES server. Active regions of the sun, called HARP (HMI Active Region Patch), are monitored for solar activity. These regions are identified by their coherent magnetic structures and measurable features. Scientists are particularly interested in two classes of solar flares:
+
+M-class flares: Moderate-intensity flares
+
+X-class flares: High-intensity flares
+
+Predicting these solar flares is challenging due to their rarity and the lack of clear indicators from solar data.
+
+Project Description
+
+This project aims to develop a machine learning (ML)-based binary classification model to predict major solar flare events 24 hours in advance. The data is sourced from the Helioseismic and Magnetic Imager Instrument on NASA's Solar Dynamics Observatory (SDO).
+
+Key Features
+
+Data Source: Solar event data captured by the SDO.
+
+Model Objective: Predict the occurrence of M-class or X-class solar flares within the next 24 hours.
+
+Performance: Achieves an average accuracy of approximately 88%, comparable to results from Bobra and Couvidat's research.
+
+Technical Details
+
+Data Preprocessing: Features are extracted from solar event datasets for training the ML model.
+
+Machine Learning Model: The model evaluates the best combination of features to predict solar flare occurrences.
+
+Evaluation Metrics: Accuracy and other classification metrics are used to assess model performance.
+
+Significance
+
+Early prediction of solar flares provides critical lead time to:
+
+Protect power grids from overloads.
+
+Safeguard satellites and communication systems.
+
+Enhance disaster preparedness for space weather events.
+
+This work contributes to the growing field of space weather prediction and provides a foundation for further improvements in predictive models for solar activity.
